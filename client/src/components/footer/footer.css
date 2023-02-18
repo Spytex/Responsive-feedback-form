@@ -1,0 +1,79 @@
+footer .feedback_footer{
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: var(--color-footer);
+    box-sizing: border-box;
+    border: 1px solid #D8D8D8;
+    animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+footer .social-icons{
+    position: absolute;
+    display: flex;
+    gap: 26px;
+    left: 343px;
+    margin-top: 79px;
+    animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+footer .social-icons i {
+    color: #696969;
+}
+
+footer .social-icons i:hover{
+    color: #01959a;
+    transform: scale(1.15);
+}
+
+
+footer img{
+    position: absolute;
+    pointer-events: none;
+}
+
+footer .group80{
+    right: 127.54px;
+    margin-top: -1px;
+}
+
+footer .redCartoon4Footer{
+    right: 0;
+    margin-top: 51px;
+}
+
+footer .redCartoon6{
+    margin-left: 1.02%;
+    margin-top: -39px;
+}
+
+@media screen and (max-width: 850px) {
+
+    footer .redCartoon6 {
+        display: none;
+    }
+
+    footer .group80{
+    left: 10%;
+    }
+
+    footer .social-icons{
+    left: 37.5%;
+    }
+}
+
+
+
+
+
